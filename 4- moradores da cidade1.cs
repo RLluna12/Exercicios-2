@@ -39,7 +39,7 @@ namespace ConsoleApp27
                     case 1:
                         Console.WriteLine("Digite sua Idade: ");
                         idadem = int.Parse(Console.ReadLine());
-                        if (idadef >= 18 && idadef <= 35)
+                        if (idadem >= 18 && idadem <= 35)
                         {
                             id++;
                         }
