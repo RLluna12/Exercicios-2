@@ -26,7 +26,7 @@ namespace ConsoleApp22
                     media = negat / i;
 
 
-                }
+              
 
 
 
