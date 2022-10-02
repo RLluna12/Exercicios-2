@@ -12,16 +12,27 @@ namespace ConsoleApp30
         static void Main(string[] args)
         {
            
-            int[] v = new int[6];
-            for(int i=0; i<6; i++)
+            int[] v = new int[10];
+            Console.WriteLine("Digite o valor de x");
+            v[8] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor de y");
+            v[9] = int.Parse(Console.ReadLine());
+            for (int i = 0; i < 8; i++)
             {
+                Console.WriteLine("numeros do vetor");
                 v[i] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine("Inverso do q foi digitado: ");
-            for (int i = 5; i >= 0; i--)
+            Console.WriteLine("soma de x: ");
+            for (int i = 0; i <8; i++)
             {
-                
-                Console.WriteLine(v[i]);
+
+                Console.WriteLine(v[i] + v[8]);
+            }
+            Console.WriteLine("soma de y: ");
+            for (int i = 0; i < 8; i++)
+            {
+
+                Console.WriteLine(v[i] + v[9]);
             }
         }
     }
