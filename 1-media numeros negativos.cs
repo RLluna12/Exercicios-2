@@ -25,11 +25,7 @@ namespace ConsoleApp22
                     Console.WriteLine("Numero negativo Digitado" + num);
                     media = negat / i;
 
-
-              
-
-
-
+                }
             }
             Console.WriteLine("Soma dos numeros negativos: " + negat);
             Console.WriteLine("MEdia: " + media);
