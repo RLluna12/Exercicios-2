@@ -11,7 +11,7 @@ namespace ConsoleApp26
         static void Main(string[] args)
         {
             int opcao = 4;
-            double cand1=0, cand2=0, branco=0, nulo = 0, total;
+            double cand1 = 0, cand2 = 0, branco = 0, nulo = 0, total;
 
             while (opcao != -1)
             {
@@ -54,6 +54,14 @@ namespace ConsoleApp26
             Console.WriteLine("Total de votos nulo: " + nulo);
             total = cand1 + cand2 + branco + nulo;
             Console.WriteLine("Total de votos lido :" + total);
+            if (cand1 > cand2)
+            {
+                Console.WriteLine("Candidato A Vencedor!! {0} de Votos.",cand1);
+            }
+            else
+            {
+                Console.WriteLine("Candidato B Vencedor!!Total de: {0} Votos.",cand2);
+            }
         }
     }
 }
